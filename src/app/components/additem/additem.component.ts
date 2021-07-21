@@ -22,16 +22,15 @@ export class AdditemComponent implements OnInit {
 
   }
 
-  /*onSubmit(){
+  onSubmit(){
     const item = new Item();
     item.id = this.id;
     item.title = this.title;
     item.price = this.price;
     item.quantity= this.quantity;
     item.completed= false;
-    this.itemService.addItem(item).subscribe(i => {
-      this.router.navigate(['/']);
-    });
-  }*/
+   
+
+  }
 
 }
